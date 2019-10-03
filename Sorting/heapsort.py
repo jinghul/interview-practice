@@ -3,16 +3,16 @@ import numpy as np
 
 # ascending -> maxheap
 def sort(a):
+    build_heap(a, len(a))
     for i in range(len(a), 0, -1):
-        build_heap(a, i)
         a[0], a[i-1] = a[i-1], a[0]
+        heapify(a, 0, i-1)
 
 def build_heap(a, end):
     if end == 0:
         return a
 
-    levels = int(math.log(end, 2))
-    for i in range(int(2**levels)-2, -1, -1):
+    for i in range(end // 2 - 1, -1, -1):
         heapify(a, i, end)
     
     return a

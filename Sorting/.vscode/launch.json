@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Sorting_c3bc736c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Sorting_c3bc736c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "Sorting_c3bc736c"
+        }
+    ]
+}
