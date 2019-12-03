@@ -1,3 +1,7 @@
+/**
+ * Helper Node class for Linked Lists of generic type
+ * @param <T>
+ */
 public class Node<T>
 {
     public T value;
